@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.fragment_transfert.view.*
-git init
 
 /**
  * A simple [Fragment] subclass.
@@ -26,10 +25,8 @@ class TransfertFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_transfert, container, false)
-        view.button.setOnClickListener { Navigation.findNavController(view).navigate(R.id.action_transfertFragment2) }
+        return  inflater.inflate(R.layout.fragment_transfert, container, false)
 
-        return view
     }
 
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629733796975",
+    "project_id": "portefeuille-669a1",
+    "storage_bucket": "portefeuille-669a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629733796975:android:2da741fbdeef67af1d719a",
+        "android_client_info": {
+          "package_name": "com.example.portefeuille"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629733796975-u3g9ne4sbv394stq6q11hks9r5u9k07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRiueoZkniUBiulsh6Sj9lzIGmbngNLBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629733796975-u3g9ne4sbv394stq6q11hks9r5u9k07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
