@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">portefeuille</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="header_title">Amine Makhlouf</string>
+    <string name="header_text">amiinemakhlouf@gmail.com</string>
+    <string name="title_1">My files</string>
+    <string name="title_2">share</string>
+    <string name="title_3">trash</string>
+    <string name="title_4">favorites</string>
+    <string name="hello_blank_fragment">:;;</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_transfert"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/transfertFragment2"
+        android:name="com.example.portefeuille.TransfertFragment"
+        android:label="fragment_transfert"
+        tools:layout="@layout/fragment_transfert" >
+        <action
+            android:id="@+id/action_transfertFragment2"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rechargeFragment"
+        android:name="com.example.portefeuille.RechargeFragment"
+        android:label="fragment_recharge"
+        tools:layout="@layout/fragment_recharge" >
+        <action
+            android:id="@+id/action_rechargeFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.portefeuille.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/to_transfertFragment2"
+            app:destination="@id/transfertFragment2" />
+        <action
+            android:id="@+id/to_rechargeFragment"
+            app:destination="@id/rechargeFragment" />
+    </fragment>
+</navigation>
