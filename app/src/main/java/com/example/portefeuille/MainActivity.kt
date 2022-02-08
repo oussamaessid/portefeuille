@@ -49,12 +49,7 @@ class MainActivity : AppCompatActivity() {
 
                     true
                 }
-                R.id.add -> {
-                    // Handle more item (inside overflow menu) press
-                    Toast.makeText(this, " add", Toast.LENGTH_LONG).show()
 
-                    true
-                }
                 else -> false
             }
 
