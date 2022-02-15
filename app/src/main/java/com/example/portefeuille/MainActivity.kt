@@ -2,6 +2,7 @@ package com.example.portefeuille
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.navigation.findNavController
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         val navController = findNavController(R.id.fragment)
 
@@ -32,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 else ->nav_view2.isVisible = true
             }
         }
+
 
 
         // toolbar menu

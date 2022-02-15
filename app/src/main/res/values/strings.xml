@@ -8,4 +8,11 @@
     <string name="title_3">trash</string>
     <string name="title_4">favorites</string>
     <string name="hello_blank_fragment">:;;</string>
+    <string-array name="currency_codes">
+        <item>CAD</item>
+        <item>EUR</item>
+        <item>CNY</item>
+        <item>USD</item>
+        <item>GBP</item>
+    </string-array>
 </resources>

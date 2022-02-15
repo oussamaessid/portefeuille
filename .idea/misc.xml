@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/ic_money.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/ic_money_focused.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/input.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/money_selector.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/activity_main.xml" value="0.1644021739130435" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/drop_down_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_add.xml" value="0.1693840579710145" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_add_transfer.xml" value="0.17346014492753623" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_home.xml" value="0.1693840579710145" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_recharge.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_room.xml" value="0.16394927536231885" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_sign_in.xml" value="0.16394927536231885" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/fragment_transfert.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/portefeuille/app/src/main/res/layout/header_navigation_drawer.xml" value="0.1644021739130435" />
         <entry key="..\:/Users/Pc/AndroidStudioProjects/portefeuille/app/lib/src/main/res/layout/item_country_picker.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Pc/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/corner.xml" value="0.2203125" />
         <entry key="..\:/Users/Pc/AndroidStudioProjects/portefeuille/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />

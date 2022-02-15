@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_add"
+    app:startDestination="@id/transfertFragment">
+
+    <fragment
+        android:id="@+id/addTransferFragment"
+        android:name="com.example.portefeuille.AddTransferFragment"
+        android:label="fragment_add_transfer"
+        tools:layout="@layout/fragment_add_transfer" />
+    <fragment
+        android:id="@+id/transfertFragment"
+        android:name="com.example.portefeuille.TransfertFragment"
+        android:label="fragment_transfert"
+        tools:layout="@layout/fragment_transfert" >
+        <action
+            android:id="@+id/to_addTransferFragment"
+            app:destination="@id/addTransferFragment" />
+    </fragment>
+</navigation>

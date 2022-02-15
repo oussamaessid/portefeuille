@@ -26,5 +26,13 @@
         <action
             android:id="@+id/to_rechargeFragment"
             app:destination="@id/rechargeFragment" />
+        <action
+            android:id="@+id/to_addFragment"
+            app:destination="@id/addFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.portefeuille.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
 </navigation>

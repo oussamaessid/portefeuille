@@ -23,6 +23,7 @@ class SignInFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_sign_in, container, false)
 
+        view.add_transfer.setOnClickListener { Navigation.findNavController(view).navigate(R.id.to_addFragment) }
         view.btn_transfert.setOnClickListener { Navigation.findNavController(view).navigate(R.id.to_transfertFragment2) }
         view.btn_recharge.setOnClickListener { Navigation.findNavController(view).navigate(R.id.to_rechargeFragment) }
 

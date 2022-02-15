@@ -19,7 +19,7 @@ import kotlinx.android.synthetic.main.fragment_sign_in.view.*
  * create an instance of this fragment.
  */
 class ServiceFragment : Fragment() {
-   m
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
